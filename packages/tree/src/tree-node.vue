@@ -12,7 +12,6 @@
       'is-checked': !node.disabled && node.checked
     }"
     role="treeitem"
-    tabindex="-1"
     :aria-expanded="expanded"
     :aria-disabled="node.disabled"
     :aria-checked="node.checked"
